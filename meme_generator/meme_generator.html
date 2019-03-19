@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meme Generator!</title>
+    <link rel = "stylesheet" href = "style.css"></link>
+</head>
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+        <h4>Preview your meme!</h4>
+    </header>
+    <section>
+        <article class = "previewMeme">
+            <div class = "previewContainer" ></div>
+        </article>
+        <article class = "form">
+            <div class = "inputContainer">
+                <label for="memeLink">Meme Link:</label>
+                <input type="text" id = "memeLink">
+            </div>
+            <div class = "inputContainer">
+                <label for="topMemeQuote">Top Quote:</label>
+                <input type="text" id = "topMemeQuote" >    
+            </div>
+            <div class = "inputContainer">
+                <label for="bottomMemeQuote">Bottom Quote:</label>
+                <input type="text" id = "bottomMemeQuote">                
+            </div>
+            <div class = "buttonContainer">
+                <button class = "createButton">Create!</button>
+                <button class = "removeButton">Remove!</button>
+            </div>
+        </article>
+        <article class = "meme"></article>
+    </section>
+<script src = "meme_generator.js"></script>    
+</body>
+</html>

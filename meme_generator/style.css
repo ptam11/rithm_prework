@@ -1,0 +1,106 @@
+html {
+    background-color: rgba(176, 176, 216, 0.781);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    
+}
+header {
+    
+    color: rgb(232, 232, 241);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.inputContainer label {
+    flex: 0 0 auto;
+    margin-left: 30px;
+    width: 20%;
+}
+
+.inputContainer input {
+    flex: 3 0 auto;
+    margin-right: 30px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+button {
+    background-color: rgb(244, 248, 237);
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+.memeContainer, .previewContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin: 10px;
+}
+
+.previewContainer{
+    height: 200px;
+    min-height: 200px;
+}
+
+.memeContainer{
+    height: 400px;
+}
+
+.newMemeImage{
+    flex: 0 1 auto;
+    width: auto;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.newMemeQuote {
+    position: absolute; 
+    flex: 0 1 auto;
+    color: white;  
+    font-size: 30px;
+    
+    text-shadow: -1px -1px 0 rgb(17, 16, 16), 1px 1px 0 rgb(17, 16, 16), -1px 1px 0 rgb(17, 16, 16), 1px 1px 0 rgb(17, 16, 16);
+    padding: 10px;
+}
+
+.memeContainer .newMemeQuote {
+    font-size: 30px;
+}
+
+.previewContainer .newMemeQuote{
+    font-size: 15px
+}
+
+.newMemeQuote.top{
+    top: 0%;
+}
+
+.newMemeQuote.bottom{
+    bottom: 0%;
+}
